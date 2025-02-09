@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Banking - Homepage</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <!-- Main container with background image and shadow -->
+    <div id="homepage">
+        <div class="overlay"></div>
+        
+        <!-- Content Centered on Page -->
+        <div id="content">
+            <!-- Logo Image at the top -->
+            <img src="imageD.jpg" alt="Bank Website Logo" class="logo">
+            
+            <!-- Buttons in the center -->
+            <button id="loginBtn">Login</button>
+            <button id="makeAccountBtn">Create Account</button>
+        </div>
+    </div>
+
+    <script>
+        // When the "Login" button is clicked, it redirects to the login page
+        document.getElementById('loginBtn').addEventListener('click', function() {
+            window.location.href = 'login.html'; // Redirect to login page
+        });
+
+        // When the "Create Account" button is clicked, it redirects to the create account page
+        document.getElementById('makeAccountBtn').addEventListener('click', function() {
+            window.location.href = 'create.html'; // Redirect to create account page
+        });
+    </script>
+
+</body>
+</html>

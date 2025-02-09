@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logging Out</title>
+    <link rel="stylesheet" href="styles4.css"> <!-- Link to the previous CSS file -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imageD.jpg" alt="Bank Logo">
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="logout-message">
+                <h1>Logging you out...</h1>
+                <p class="subheading">Please wait while we securely log you out.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; GE0DE'S ONLINE BANKING SYSTEM - SINCE 2025 A.D.</p>
+    </footer>
+
+    <script>
+        // Wait for 2 seconds before redirecting
+        setTimeout(function() {
+            // Clear the stored username from localStorage
+            localStorage.removeItem('username');
+
+            // Redirect to the homepage
+            window.location.href = 'index.html';
+        }, 5000);  // 2000 milliseconds (2 seconds)
+    </script>
+</body>
+</html>

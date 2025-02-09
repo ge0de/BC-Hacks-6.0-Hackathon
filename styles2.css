@@ -1,0 +1,76 @@
+/* Import Google Fonts for luxurious fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply Space Grotesk font to everything */
+body, #homepage, #content, button, .logo {
+    font-family: 'Space Grotesk', sans-serif; /* Apply Space Grotesk globally */
+}
+
+/* Homepage background */
+#homepage {
+    background-image: url('imageC.jpg'); /* Set the background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#makeAccountBtn {
+    position: relative; /* Allows the button to move within its container */
+    transition: all 0.3s ease; /* Smooth movement */
+}
+
+/* Overlay to darken the background slightly */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Content in the center */
+#content {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+}
+
+/* Logo image */
+.logo {
+    display: block;
+    margin: 0 auto 30px; /* Center the logo horizontally and add space below */
+    width: 400px; /* Adjust the logo width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Buttons */
+button {
+    padding: 15px 30px;
+    background-color: #CBA135;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600; /* Make button text a bit bolder for emphasis */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #CBA135;
+}

@@ -1,0 +1,193 @@
+/* Import Google Fonts for luxurious fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply Space Grotesk font to everything */
+body, #homepage, #content, button, .logo {
+    font-family: 'Space Grotesk', sans-serif; /* Apply Space Grotesk globally */
+}
+
+/* Header and logo styling */
+header {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px 0; /* Reduced padding for smaller header */
+    text-align: center; /* Center the logo and navigation */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 150px; /* Adjusted logo width to be a bit smaller */
+    height: auto;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px; /* Reduced font size */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #CBA135;
+}
+
+nav .nav-link:hover {
+    color: #CBA135;
+}
+
+/* Main content styles */
+main {
+    background-image: url('imageC.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 20px; /* Increase padding at the top for better spacing */
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow effect inside the background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center; /* Center all content inside the container */
+}
+
+/* Welcome message */
+.welcome-message h1 {
+    font-size: 36px;
+    color: #2d2d2d;
+}
+
+.welcome-message .subheading {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Account Info Section */
+.account-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: left; /* Keep text aligned left inside boxes */
+    gap: 30px; /* Add space between boxes */
+}
+
+.account-summary, .transaction-history {
+    width: 48%;
+    padding: 20px;
+    background-color: #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.account-summary p, .transaction-history ul {
+    margin: 10px 0;
+}
+
+/* Account number styling */
+.account-number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+/* Chequing account and balance styling */
+.account-summary h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.balance {
+    font-size: 20px;
+    color: #2d2d2d;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.balance-amount {
+    color: #27ae60;
+}
+
+.last-login {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Transaction history styling */
+.transaction-history h3 {
+    font-size: 22px;
+    color: #333;
+}
+
+.transaction-history ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.transaction-history li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.transaction-date {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* Call-to-action buttons */
+.cta-container {
+    margin-top: 40px;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #CBA135;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #9e7e00;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 40px;
+    text-align: center; /* Center the footer text */
+}

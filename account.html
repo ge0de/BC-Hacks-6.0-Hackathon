@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Your Bank Account</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imageD.jpg" alt="Bank Logo">
+        </div>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="account.html" class="nav-link active">Account</a>
+            <a href="logout.html" class="nav-link">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="welcome-message">
+                <h1>Welcome, <span id="welcomeMessage">User</span>!</h1>
+                <p class="subheading">Account Information is as follows:</p>
+            </div>
+
+            <div class="account-info">
+                <div class="account-summary">
+                    <p class="account-number">Account #: 123-456-789</p>
+                    <h2>Chequing Account</h2>
+                    <p class="balance">Balance: <span class="balance-amount">$12,345.67</span></p>
+                    <p class="last-login">Last login: <span class="last-login-time">2 days ago</span></p>
+                </div>
+                
+                <div class="transaction-history">
+                    <h3>Recent Transactions</h3>
+                    <ul>
+                        <li><span class="transaction-date">Feb 5, 2025</span> - Deposit: $500</li>
+                        <li><span class="transaction-date">Feb 3, 2025</span> - Withdrawal: $150</li>
+                        <li><span class="transaction-date">Feb 1, 2025</span> - Transfer to Savings: $200</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cta-container">
+                <button class="cta-btn" id="makeTransferBtn">Make a Transfer</button>
+                <button class="cta-btn" id="viewStatementBtn">View Full Statement</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>GE0DE'S ONLINE BANKING SYSTEM - SINCE 2025 A.D.</p>
+    </footer>
+
+    <script>
+        // Fetch username from localStorage and display it
+        document.addEventListener('DOMContentLoaded', function() {
+            const username = localStorage.getItem('username');
+            const welcomeMessage = document.getElementById('welcomeMessage');
+            if (username) {
+                welcomeMessage.textContent = username;
+            }
+        });
+
+        // Redirect to Bee Movie script when "Make a Transfer" button is clicked
+        document.getElementById('makeTransferBtn').addEventListener('click', function() {
+            window.location.href = 'https://courses.cs.washington.edu/courses/cse163/20wi/files/lectures/L04/bee-movie.txt';
+        });
+
+        // Redirect to Rickroll when "View Full Statement" button is clicked
+        document.getElementById('viewStatementBtn').addEventListener('click', function() {
+            window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+        });
+    </script>
+</body>
+</html>
