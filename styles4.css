@@ -80,6 +80,17 @@ main {
     color: #2d2d2d;
 }
 
+.check-details {
+    margin-left: 10px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.check-details:hover {
+    color: rgb(41, 41, 159);
+}
+
 .welcome-message .subheading {
     font-size: 18px;
     color: #777;
@@ -129,7 +140,7 @@ main {
 }
 
 .balance-amount {
-    color: #27ae60;
+    color: #d01a1a;
 }
 
 .last-login {
