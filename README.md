@@ -7,8 +7,7 @@
 # Team Members
 * ge0de
 * swaglord2808
-* (TBD)
-* (TBD)
+* MUSMAB
 
 ## Inspiration
 Unconventional Avant-Garde Originality.
