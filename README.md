@@ -4,22 +4,21 @@
   </a>
 </p>
 
-# Team Members
+# The Solo Warrior
 * ge0de
-* swaglord2808
-* MUSMAB
 
 ## Inspiration
-Unconventional Avant-Garde Originality.
+Unconventional, Avant-Garde Originality.
 ## What it does
-It's a banking website, but not exactly. It's got a bunch of easter eggs. Have fun.
-## How we built it
+It's a banking website. Not really. It's got a bunch of easter eggs and trolls. Have fun.
+## How I built it
 All-nighters on VSCode working on JS, HTML, CSS.
-## Challenges we ran into
+## Challenges I ran into
 Keeping the willpower up while coding until 6 AM.
-## Accomplishments that we're proud of
-Nothing has been accomplished yet. The awards await.
-## What we learned
-Discipline, Camaraderie, Sacrifice.
+## Accomplishments that I'm proud of
+Nothing has been accomplished yet. The awards await.<br>
+**Update: This abomination won the "Best On-Theme Hack".**
+## What I learned
+Discipline, Sacrifice, Willpower.
 ## What's next for Ge0de's Online Banking
-Larger Scale Web App if it ends up winning.
+Nothing. Absolutely nothing.
